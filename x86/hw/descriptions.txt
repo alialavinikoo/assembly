@@ -1,0 +1,10 @@
+Linux System Call Reference:
+
+sys_write (4):
+Parameters: eax = 4, ebx = file descriptor, ecx = message, edx = length
+
+sys_read (3):
+Parameters: eax = 3, ebx = file descriptor, ecx = buffer, edx = max length
+
+sys_exit (1):
+Parameters: eax = 1, ebx = exit code
